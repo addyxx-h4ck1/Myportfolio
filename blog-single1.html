@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>My Blog</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -17,8 +19,9 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!--CSS File -->
+  <!--  Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
   
 </head>
 
@@ -28,14 +31,13 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">PortFolio | Brian</a></h1>
-      
+      <h1 class="logo"><a href="index.html">Portfolio | Brian</a></h1>
+     
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto " href="index.html">My Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="index.html">Services</a></li>
-          <li><a class="nav-link scrollto" href="#work">Work</a></li>
           <li><a class="nav-link scrollto" href="#blog">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Follow me</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -62,7 +64,7 @@
     </div>
   </header><!-- End Header -->
 
-  <div class="hero hero-single route bg-image">
+  <div class="hero hero-single route bg-image" style="background-image: url('https://img.freepik.com/free-photo/robotic-arm-motion-futuristic-technology-innovation-generated-by-ai_188544-24757.jpg')">
     <div class="overlay-mf"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -93,7 +95,7 @@
           <div class="col-md-8">
             <div class="post-box">
               <div class="post-thumb">
-                <img src="https://img.freepik.com/free-photo/glowing-circuit-board-complex-cyborg-brain-design-generated-by-ai_188544-36674.jpg" class="img-fluid" alt="">
+                <img src="https://img.freepik.com/free-photo/human-big-data-visualization_587448-4955.jpg" class="img-fluid" alt="">
               </div>
               <div class="post-meta">
                 <h1 class="article-title">Title: Unleashing the Power of Artificial Intelligence: Transforming the World One Algorithm at a Time</h1>
@@ -113,14 +115,14 @@
                 </ul>
               </div>
               <div class="article-content">
-                <p>
+                <p id="AI">
                   In the 21st century, the world has witnessed a technological revolution that has reshaped industries, businesses, and our daily lives. At the heart of this transformation is Artificial Intelligence, or AI, a field of computer science that seeks to create machines capable of performing tasks that typically require human intelligence.
                 </p>
-                <strong>Understanding Artificial Intelligence</strong>
+                <strong id="Understanding">Understanding Artificial Intelligence</strong>
                 <p>
                   AI encompasses a wide range of technologies, from simple rule-based systems to complex neural networks inspired by the human brain. The goal is to enable machines to think, learn, and adapt to new situations, just like humans do. AI systems are trained on vast amounts of data, allowing them to make predictions, recognize patterns, and solve problems.
                 </p>
-                <strong>Challenges and Ethical Considerations</strong>
+                <strong id="Challenges">Challenges and Ethical Considerations</strong>
                 <p>
                   While AI offers immense potential, it also raises important ethical and societal questions. Concerns include job displacement due to automation, biased algorithms, and privacy issues related to data collection. Ethical AI development and regulation are critical to ensuring that AI benefits all of humanity.
                 </p>
@@ -199,46 +201,18 @@
                 </li>
               </ul>
             </div> -->
-            
-            <div class="widget-sidebar">
-              <h5 class="sidebar-title">Recent Post</h5>
-              <div class="sidebar-content">
-                <ul class="list-sidebar">
-                  <li>
-                    <a href="#blog">Artificial Intelligence</a>
-                  </li>
-                  
-                </ul>
-              </div>
-            </div>
-            <!-- <div class="widget-sidebar">
-              <h5 class="sidebar-title">Archives</h5>
-              <div class="sidebar-content">
-                <ul class="list-sidebar">
-                  <li>
-                    <a href="#">September, 2017.</a>
-                  </li>
-                  <li>
-                    <a href="#">April, 2017.</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                  <li>
-                    <a href="#">Atque placeat maiores nam quo autem</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                </ul>
-              </div>
-            </div> -->
 
-            <!-- <section id="about" class="about-mf sect-pt4 route">
+            <section id="about" class="about-mf sect-pt4 route">
               <div class="container">
+                
                 <div class="row">
                   <div class="col-sm-12">
                     <div class="box-shadow-full">
+                      <div class="title-box-2">
+                        <h5 class="title-left" >
+                          About me
+                        </h5>
+                      </div>
                       <div class="row">
                         <div class="col-md-6">
                           <div class="row">
@@ -256,77 +230,69 @@
                               </div>
                             </div>
                           </div>
-                         
-                        <div class="col-md-6">
-                          <div class="about-me pt-4 pt-md-0" id="work">
-                            <div class="title-box-2">
-                              <h5 class="title-left" >
-                                About me
-                              </h5>
-                            </div>
-                            <p class="lead">
-                              Thank you for viewing my blog and if you like what I do please make sure to let me know through my socials.
-                            </p>
-                            <p class="lead">
-                              I am a web developer and the creator of this page. I am available for work and I do freelancing. You can view my portfolio and more info about me using the button below.
-                              <br><br>
-                              <a href="https://drive.google.com/file/d/18LVCyMfKlML3VkEx4DiQ7p83wX4_Jx2a/view?usp=sharing" class="resume-btn" style="display: flex; align-items: center; justify-content: center; width: 200px;">Portfolio</a>
-                            </p>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>End About Section -->
-
-
-
-
-            <!-- <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
-              <div class="overlay-mf"></div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="contact-mf">
-                      <div id="contact" class="box-shadow-full">
-                        
-                          <div class="col-md-6">
-                            <div class="title-box-2 pt-4 pt-md-0">
-                              <h5 class="title-left">
-                                Talk To Me
-                              </h5>
-                            </div>
-                            <div class="more-info">
-                              <p class="lead">
-                                Thank you for viewing my blog i hope it was helpful to you. I'd really appreciate your feedback use the following links to talk to me 
-                              </p>
-                              <ul class="list-ico">
-                                <li><span class="bi bi-geo-alt"></span> Mombasa, Kenya</li>
-                                <li><span class="bi bi-phone"></span> (+254) 768-299-380</li>
-                                <li><span class="bi bi-envelope"></span> briannjosh25@gmail.com</li>
-                              </ul>
-                            </div>
-                            <div class="socials">
-                              <ul>
-                                <li><a href="https://www.facebook.com/morio.kala"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                                <li><a href="https://instagram.com/briannjosh23?igshid=MzNlNGNkZWQ4Mg=="><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                                <li><a href="https://twitter.com/briannaddyxx23?t=TsJX9eUE42nq3w-PloVBXA&s=09"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                                <li><a href="https://wa.me/+254768299380"><span class="ico-circle"><i class="bi bi-whatsapp"></i></span></a></li>
-                                <li><a href="https://www.linkedin.com/in/brian-njoroge-550492283"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                                <li><a href="mailto:briannjosh25@gmail.com"><span class="ico-circle"><i class="bi bi-envelope"></i></span></a></li>
-                                
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+            </section> <!-- End About Section -->
+          </div>
+          <div class="col-md-4">
+            <div class="widget-sidebar sidebar-search">
+              <h5 class="sidebar-title">Search</h5>
+              <div class="sidebar-content">
+                <form>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-secondary btn-search" type="button">
+                        <span class="bi bi-search"></span>
+                      </button>
+                    </span>
                   </div>
-                </div>
+                </form>
               </div>
-            </section>End Contact Section -->
+            </div>
+            <div class="widget-sidebar">
+              <h5 class="sidebar-title">Recent Post</h5>
+              <div class="sidebar-content">
+                <ul class="list-sidebar">
+                  <li>
+                    <a href="#AI">Artificial Intelligence.</a>
+                  </li>
+                  <li>
+                    <a href="#Challenges">Challenges and Ethical Considerations</a>
+                  </li>
+                  <li>
+                    <a href="#Understanding">Understanding Artificial Intelligence</a>
+                  </li>
+                  
+                </ul>
+              </div>
+
+            </div>
+            <div class="widget-sidebar">
+              <h5 class="sidebar-title">Archives</h5>
+              <div class="sidebar-content">
+                <ul class="list-sidebar">
+                  <li>
+                    <a >AI.</a>
+                  </li>
+                  <li>
+                    <a >Travelling</a>
+                  </li>
+                  <li>
+                    <a >Tech</a>
+                  </li>
+                  <li>
+                    <a >Web Dev</a>
+                  </li>
+                  <li>
+                    <a >JavaScript Updates</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div class="widget-sidebar widget-tags">
               <h5 class="sidebar-title">Tags</h5>
               <div class="sidebar-content">
@@ -356,6 +322,49 @@
         </div>
       </div>
     </section><!-- End Blog Single Section -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url('https://img.freepik.com/free-photo/hand-shaking-hand-with-word-it-bottom_1340-31627.jpg')">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Talk To Me
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        Thank you for viewing my blog i hope it was helpful to you. I'd really appreciate your feedback use the following links to talk to me 
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-geo-alt"></span> Mombasa, Kenya</li>
+                        <li><span class="bi bi-phone"></span> (+254) 768-299-380</li>
+                        <li><span class="bi bi-envelope"></span> briannjosh25@gmail.com</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="https://www.facebook.com/morio.kala"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href="https://instagram.com/briannjosh23?igshid=MzNlNGNkZWQ4Mg=="><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href="https://twitter.com/briannaddyxx23?t=TsJX9eUE42nq3w-PloVBXA&s=09"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href="https://wa.me/+254768299380"><span class="ico-circle"><i class="bi bi-whatsapp"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/brian-njoroge-550492283"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="mailto:briannjosh25@gmail.com"><span class="ico-circle"><i class="bi bi-envelope"></i></span></a></li>
+                        
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main><!-- End #main -->
 
@@ -365,7 +374,7 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>Brian Njoroge</strong>. All Rights Reserved</p>
+            <p class="copyright">&copy; Copyright <strong>Brian Njoroge</strong>. </p>
             
           </div>
         </div>
@@ -382,12 +391,10 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
-   <script src="comment.js"></script>
+  
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
- 
-
 
 </body>
 
